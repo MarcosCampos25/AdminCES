@@ -58,6 +58,20 @@ public class Wait {
     }
 
     /**
+     * Espera a que el elemento por css deje de estar visible (o desaparezca del DOM).
+     */
+    public void invisibilityCss() {
+        webDriverWait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(locator)));
+    }
+
+    /**
+     * Espera a que el elemento por css deje de estar visible (o desaparezca del DOM).
+     */
+    public void invisibilityXpath() {
+        webDriverWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(locator)));
+    }
+
+    /**
      * Espera a que el elemento por xpath esté visible.
      */
     public void xpath() {
