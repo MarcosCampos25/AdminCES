@@ -31,10 +31,6 @@ public class HomePO {
         browser.find().css(BUTTON_SUBMIT).click();
     }
 
-    public void clickFormularioLink() {
-        browser.find().link(LINK_FORMULARIO).click();
-    }
-
     public void clickRegisterLink() {
         browser.find().css(LINK_REGISTER).click();
     }

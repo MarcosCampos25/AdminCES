@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0211e5b8-7b3c-402b-822d-9593928da648" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tatf/home/data/HomeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tatf/home/pom/HomePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tatf/home/task/HomeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/soluciones/ConsultarInmobiliariaTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/soluciones/TestForm2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/AdminCesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/tests/AdminCesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/ConsultarInmobiliariaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/TestForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/home/pom/HomePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/home/pom/HomePO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
