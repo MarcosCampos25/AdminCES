@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0211e5b8-7b3c-402b-822d-9593928da648" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tatf/tests/AdminCesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tatf/core/driver/manager/ChromeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tatf/core/driver/manager/ChromeDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tatf/core/wait/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tatf/core/wait/Wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tatf/home/data/HomeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tatf/home/pom/HomePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tatf/home/task/HomeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/soluciones/ConsultarInmobiliariaTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/soluciones/TestForm2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/AdminCesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/tests/AdminCesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/ConsultarInmobiliariaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/TestForm.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -85,29 +98,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AdminCesTest.altaCuentaTesterDesdeAdministrador.executor": "Run",
-    "JUnit.AdminCesTest.eliminarCuentaTester.executor": "Run",
-    "JUnit.AdminCesTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "generacion-scripts-1",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Marco/Downloads/tatf/automation-framework",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AdminCesTest.altaCuentaTesterDesdeAdministrador.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminCesTest.eliminarCuentaTester.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminCesTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marco/Downloads/tatf/automation-framework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.AdminCesTest">
     <configuration name="AdminCesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automated-framework" />
@@ -201,7 +214,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/tatf/tests/AdminCesTest.java</url>
-          <line>58</line>
+          <line>76</line>
           <properties class="com.tatf.tests.AdminCesTest" method="altaCuentaTesterDesdeAdministrador">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
