@@ -2,7 +2,6 @@ package com.tatf.viewusers.task;
 
 import com.tatf.alert.task.AlertTask;
 import com.tatf.core.browser.IBrowser;
-import com.tatf.core.verification.IVerify;
 import com.tatf.viewusers.data.ViewUsersData;
 import com.tatf.viewusers.pom.ViewUsersPO;
 import org.openqa.selenium.TimeoutException;
@@ -16,13 +15,20 @@ public class ViewUsersTask {
         this.alertTask = new AlertTask(browser);
     }
 
-    public void verifyTester(String email, String firstName, String lastName, String country, String level) {
-        viewUsersPO.waitTable();
-        IVerify verify = IVerify.create();
-        verify.verify(firstName, viewUsersPO.getCellText(email, ViewUsersData.COLUMN_FIRST_NAME), "El nombre del Tester no coincide en la tabla.");
-        verify.verify(lastName, viewUsersPO.getCellText(email, ViewUsersData.COLUMN_LAST_NAME), "El apellido del Tester no coincide en la tabla.");
-        verify.verify(country, viewUsersPO.getCellText(email, ViewUsersData.COLUMN_COUNTRY), "El pais del Tester no coincide en la tabla.");
-        verify.verify(level, viewUsersPO.getCellText(email, ViewUsersData.COLUMN_LEVEL), "El perfil del Tester no coincide en la tabla.");
+    public String getFirstName(String email) {
+        return getCellText(email, ViewUsersData.COLUMN_FIRST_NAME);
+    }
+
+    public String getLastName(String email) {
+        return getCellText(email, ViewUsersData.COLUMN_LAST_NAME);
+    }
+
+    public String getCountry(String email) {
+        return getCellText(email, ViewUsersData.COLUMN_COUNTRY);
+    }
+
+    public String getLevel(String email) {
+        return getCellText(email, ViewUsersData.COLUMN_LEVEL);
     }
 
     public void deleteTester(String email) {
@@ -30,11 +36,17 @@ public class ViewUsersTask {
         alertTask.confirm();
     }
 
-    public void verifyTesterNotVisible(String email) {
+    public boolean isTesterRemoved(String email) {
         try {
             viewUsersPO.waitUserInvisible(email);
+            return true;
         } catch (TimeoutException e) {
-            IVerify.create().verifyFail("El tester " + email + " seguía visible en la tabla tras el borrado.");
+            return false;
         }
+    }
+
+    private String getCellText(String email, int column) {
+        viewUsersPO.waitTable();
+        return viewUsersPO.getCellText(email, column);
     }
 }

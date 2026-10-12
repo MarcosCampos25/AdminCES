@@ -1,7 +1,7 @@
 package com.tatf.home.task;
 
+import com.tatf.config.TestConfig;
 import com.tatf.core.browser.IBrowser;
-import com.tatf.home.data.HomeData;
 import com.tatf.home.pom.HomePO;
 
 public class HomeTask {
@@ -12,11 +12,7 @@ public class HomeTask {
     }
 
     public void accessAdminces() {
-        access(HomeData.URL_ADMINCES, HomeData.PASSWORD_ADMINCES);
-    }
-
-    public void goToRegister() {
-        homePO.clickRegisterLink();
+        access(TestConfig.urlAdminces(), TestConfig.passwordAdminces());
     }
 
     private void access(String url, String password) {

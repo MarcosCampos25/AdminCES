@@ -8,7 +8,6 @@ import com.tatf.core.browser.IBrowser;
 public class HomePO {
     private static final String INPUT_PASSWORD = "input[type='password']";
     private static final String BUTTON_SUBMIT = "button[type='submit']";
-    private static final String LINK_FORMULARIO = "Formulario";
     private static final String LINK_REGISTER = "a[href='/adminces/register']";
     private static final String LINK_FORGOT_PASSWORD = "a[href='/adminces/forgot-password']";
     private static final String LINK_LOGIN = "a[href='/adminces/login']";

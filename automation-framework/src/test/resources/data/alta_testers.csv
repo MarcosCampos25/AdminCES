@@ -1,0 +1,4 @@
+adminEmail,adminPassword,nombre,apellido,emailPrefijo,emailDominio,pais,password,perfil
+leonardoperez@gmail.com,12345,Pedro,Gomez,pedro.tester.,@test.com,Uruguay,Test1234!,Tester Junior
+leonardoperez@gmail.com,12345,Maria,Lopez,maria.tester.,@test.com,Uruguay,Test1234!,Tester Senior
+leonardoperez@gmail.com,12345,Lucia,Suarez,lucia.tester.,@test.com,Uruguay,Test1234!,Tester Líder

@@ -6,8 +6,6 @@ public class ViewUsersData {
     public static final int COLUMN_COUNTRY = 4;
     public static final int COLUMN_LEVEL = 5;
 
-    public static final String EMAIL_TO_DELETE = "jeniffer@gmail.com";
-
     private ViewUsersData() {
     }
 }
