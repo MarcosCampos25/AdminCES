@@ -6,17 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0211e5b8-7b3c-402b-822d-9593928da648" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/alert/task/AlertTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/alert/task/AlertTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/crearusuario/data/CrearUsuarioData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/crearusuario/data/CrearUsuarioData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/forgotpassword/data/ForgotPasswordData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/home/data/HomeData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/home/pom/HomePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/home/pom/HomePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/home/task/HomeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/home/task/HomeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/login/data/LoginData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/register/data/RegisterData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/AdminCesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/viewusers/data/ViewUsersData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/viewusers/data/ViewUsersData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/viewusers/task/ViewUsersTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/viewusers/task/ViewUsersTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tatf/core/browser/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tatf/core/browser/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tatf/core/driver/factory/DriverManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tatf/core/driver/factory/DriverManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tatf/core/driver/factory/DriverType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tatf/core/driver/factory/DriverType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tatf/core/driver/instance/DriverManagerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tatf/core/driver/instance/DriverManagerSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/ForgotPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/tests/ForgotPasswordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/tests/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tatf/tests/UserManagementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tatf/tests/UserManagementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,30 +103,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.AdminCesTest.altaCuentaTesterDesdeAdministrador.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdminCesTest.eliminarCuentaTester.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdminCesTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marco/Downloads/tatf/automation-framework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AdminCesTest.altaCuentaTesterDesdeAdministrador.executor": "Run",
+    "JUnit.AdminCesTest.eliminarCuentaTester.executor": "Run",
+    "JUnit.AdminCesTest.executor": "Run",
+    "JUnit.RegisterTest.executor": "Run",
+    "JUnit.SmokeSuite.executor": "Run",
+    "Maven.automated-framework [io.qameta.allure:allure-maven:2.12.0:report].executor": "Run",
+    "Maven.automated-framework [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Marco/Downloads/tatf/automation-framework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.RegisterTest">
+}]]></component>
+  <component name="RunManager" selected="JUnit.SmokeSuite">
     <configuration name="AdminCesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automated-framework" />
       <extension name="coverage">
@@ -187,6 +193,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automated-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tatf.suites.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tatf.suites" />
+      <option name="MAIN_CLASS_NAME" value="com.tatf.suites.SmokeSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="automation-framework" />
       <method v="2">
@@ -200,6 +221,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmokeSuite" />
         <item itemvalue="JUnit.RegisterTest" />
         <item itemvalue="JUnit.AdminCesTest" />
         <item itemvalue="JUnit.AdminCesTest.altaCuentaTesterDesdeAdministrador" />
@@ -239,6 +261,17 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tatf/suites/GestionUsuariosSuite.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tatf/suites/GestionUsuariosSuite.java</url>
+          <line>6</line>
+          <properties field="de" class="GestionUsuariosSuite" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

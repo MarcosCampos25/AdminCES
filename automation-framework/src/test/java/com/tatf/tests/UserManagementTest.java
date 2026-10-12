@@ -4,10 +4,14 @@ import com.tatf.crearusuario.task.CrearUsuarioTask;
 import com.tatf.dashboard.task.DashboardTask;
 import com.tatf.login.task.LoginTask;
 import com.tatf.viewusers.task.ViewUsersTask;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
+@Feature("Gestión de usuarios")
+@Tag("usuarios")
 public class UserManagementTest extends BaseTest {
 
     private LoginTask loginTask;

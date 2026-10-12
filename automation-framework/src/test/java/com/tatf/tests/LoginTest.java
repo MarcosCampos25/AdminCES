@@ -1,10 +1,15 @@
 package com.tatf.tests;
 
 import com.tatf.login.task.LoginTask;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
+@Feature("Inicio de sesión")
+@Tag("login")
+@Tag("smoke")
 public class LoginTest extends BaseTest {
 
     private LoginTask loginTask;

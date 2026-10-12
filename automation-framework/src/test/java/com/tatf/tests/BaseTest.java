@@ -7,6 +7,7 @@ import com.tatf.core.browser.BrowserFactory;
 import com.tatf.core.browser.IBrowser;
 import com.tatf.core.verification.IVerify;
 import com.tatf.home.task.HomeTask;
+import io.qameta.allure.Allure;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
@@ -23,10 +24,13 @@ public abstract class BaseTest {
 
     @BeforeEach
     void openAdminces() {
-        browser = BrowserFactory.getBrowser(TestConfig.debugging());
+        browser = BrowserFactory.getBrowser(TestConfig.browser(), TestConfig.debugging());
         verify = IVerify.create();
         homeTask = new HomeTask(browser);
         alertTask = new AlertTask(browser);
+
+        // el navegador queda como parámetro en el reporte, para distinguir las ejecuciones de cada uno
+        Allure.parameter("navegador", TestConfig.browser().name());
 
         homeTask.accessAdminces();
     }

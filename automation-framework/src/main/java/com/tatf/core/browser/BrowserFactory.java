@@ -10,12 +10,21 @@ public class BrowserFactory {
     }
 
     /**
-     * Arma un IBrowser listo para usar, con el driver correspondiente.
+     * Arma un IBrowser listo para usar, con el driver indicado por la propiedad del sistema "browser".
      *
      * @param debugging Si es true, resalta los elementos al interactuar con ellos.
      */
     public static IBrowser getBrowser(boolean debugging) {
-        DriverType type = resolveDriverType();
+        return getBrowser(resolveDriverType(), debugging);
+    }
+
+    /**
+     * Arma un IBrowser listo para usar, con el driver correspondiente.
+     *
+     * @param type      Tipo de browser a usar.
+     * @param debugging Si es true, resalta los elementos al interactuar con ellos.
+     */
+    public static IBrowser getBrowser(DriverType type, boolean debugging) {
         DriverManagerSingleton instance = DriverManagerSingleton.getInstance(type);
         return new BrowserImpl(instance, EXPLICIT_WAIT_DEFAULT_SECONDS, debugging);
     }
@@ -32,7 +41,6 @@ public class BrowserFactory {
      * Cierra el browser actual y libera la instancia del Singleton.
      */
     public static void quitBrowser() {
-        DriverType type = resolveDriverType();
-        DriverManagerSingleton.getInstance(type).quit();
+        DriverManagerSingleton.quitInstance();
     }
 }

@@ -34,6 +34,15 @@ public class DriverManagerSingleton {
     }
 
     /**
+     * Cierra el driver de la instancia actual, si existe.
+     */
+    public static void quitInstance() {
+        if (instance != null) {
+            instance.quit();
+        }
+    }
+
+    /**
      * Devuelve el WebDriver actual.
      */
     public WebDriver getDriver() {

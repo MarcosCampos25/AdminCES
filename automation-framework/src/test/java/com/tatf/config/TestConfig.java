@@ -1,5 +1,6 @@
 package com.tatf.config;
 
+import com.tatf.core.driver.factory.DriverType;
 import com.tatf.core.util.ResourceLoader;
 
 import java.io.IOException;
@@ -15,6 +16,7 @@ public class TestConfig {
     private static final String CONFIG_FILE = "config.properties";
     private static final String KEY_URL_ADMINCES = "adminces.url";
     private static final String KEY_PASSWORD_ADMINCES = "adminces.password";
+    private static final String KEY_BROWSER = "browser";
     private static final String KEY_DEBUGGING = "browser.debugging";
 
     private static final Properties PROPERTIES = load();
@@ -28,6 +30,10 @@ public class TestConfig {
 
     public static String passwordAdminces() {
         return get(KEY_PASSWORD_ADMINCES);
+    }
+
+    public static DriverType browser() {
+        return DriverType.valueOf(get(KEY_BROWSER).toUpperCase());
     }
 
     public static boolean debugging() {

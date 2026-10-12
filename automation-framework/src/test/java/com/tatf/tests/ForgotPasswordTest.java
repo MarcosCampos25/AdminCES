@@ -2,10 +2,14 @@ package com.tatf.tests;
 
 import com.tatf.forgotpassword.task.ForgotPasswordTask;
 import com.tatf.login.task.LoginTask;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
+@Feature("Reinicio de contraseña")
+@Tag("password")
 public class ForgotPasswordTest extends BaseTest {
 
     private ForgotPasswordTask forgotPasswordTask;
